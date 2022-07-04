@@ -1,0 +1,9 @@
+<div id="temp_id_tree_ecap" [attr.temp-id]="jsTreeId"></div>
+<!-- 
+  "ID" is not binded by angular because jsTree script fails to find the Element
+  this id is going to be changed to a random one:
+   1. Can be used more than one jsTree instances on single web-app
+
+   "temp-id" attribute will be used to find this "DIV" element from the CODE
+   this "temp_id_tree_ecap" value is also hardcoded on Class#TREE_TEMP_ID
+-->
